@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Triage social card</title>
+  <desc id="desc">Social preview card for the Triage bug tracking application.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <g opacity="0.18" stroke="#94a3b8" stroke-width="2">
+    <path d="M90 500h1020" />
+    <path d="M90 430h1020" />
+    <path d="M90 360h1020" />
+    <path d="M90 290h1020" />
+    <path d="M90 220h1020" />
+  </g>
+  <rect x="90" y="104" width="88" height="88" rx="16" fill="none" stroke="url(#accent)" stroke-width="8" />
+  <path d="M134 126v44m-22-22h44" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" />
+  <text x="90" y="285" fill="#f8fafc" font-family="Arial, sans-serif" font-size="88" font-weight="700">Triage</text>
+  <text x="90" y="360" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="36">Modern bug tracking dashboard for fast-moving engineering teams.</text>
+  <g transform="translate(90 430)">
+    <rect width="310" height="110" rx="14" fill="#111827" stroke="#334155" />
+    <text x="28" y="42" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">Critical bugs</text>
+    <text x="28" y="84" fill="#f8fafc" font-family="Arial, sans-serif" font-size="42" font-weight="700">12</text>
+  </g>
+  <g transform="translate(445 430)">
+    <rect width="310" height="110" rx="14" fill="#111827" stroke="#334155" />
+    <text x="28" y="42" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">Open issues</text>
+    <text x="28" y="84" fill="#f8fafc" font-family="Arial, sans-serif" font-size="42" font-weight="700">38</text>
+  </g>
+  <g transform="translate(800 430)">
+    <rect width="310" height="110" rx="14" fill="#111827" stroke="#334155" />
+    <text x="28" y="42" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">Resolved this week</text>
+    <text x="28" y="84" fill="#f8fafc" font-family="Arial, sans-serif" font-size="42" font-weight="700">24</text>
+  </g>
+</svg>

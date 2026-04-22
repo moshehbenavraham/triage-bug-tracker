@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, Moon, Sun } from "lucide-react";
 import { Logo3D } from "@/components/Logo3D";
-import testimonialAvatarAsset from "@/assets/testimonial-avatar.jpg.asset.json";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
@@ -334,7 +333,7 @@ const Landing = () => {
               "We replaced three tools with one. Mean time to resolution dropped 40% in the first month. The team actually uses it — that's the real win."
             </blockquote>
             <div className="mt-6 flex items-center gap-3">
-              <img src={testimonialAvatarAsset.url} alt="Jamie Kim" className="h-8 w-8 rounded-full object-cover" />
+              <img src="/testimonial-avatar.svg" alt="Jamie Kim" className="h-8 w-8 rounded-full object-cover" />
               <div>
                 <span className="text-[13px] font-medium text-foreground">Jamie Kim</span>
                 <span className="text-[13px] text-muted-foreground ml-2">Engineering Lead, Acme Corp</span>
